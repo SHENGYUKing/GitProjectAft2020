@@ -61,6 +61,7 @@
    git push origin main    
 
 10. 出现“SSL SSL_read: Connection was reset, errno 10054”此时可以先运行：
+
     git config --global http.sslVerify "false"
 
     之后再进行步骤9尝试应该就能够成功上传
